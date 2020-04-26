@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <!--        <item-->
+        <!--            android:id="@+id/nav_payment"-->
+        <!--            android:title="@string/action_payment"-->
+        <!--            android:icon="@drawable/payment"-->
+        <!--            android:actionMenuTextColor="@color/colorAccent"-->
+        <!--            />-->
+
+
+        <!--        <item-->
+        <!--            android:id="@+id/passbook"-->
+        <!--            android:title="@string/passbook"-->
+        <!--            android:icon="@drawable/passbook"-->
+        <!--            android:actionMenuTextColor="@color/colorAccent"-->
+        <!--            />-->
+
+
+
+    </group>
+    <group android:id="@+id/grp8" >
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_dummy_user"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+        <item
+            android:id="@+id/nav_yourtrips"
+            android:title="@string/action_trips"
+            android:icon="@drawable/trip"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+        <item
+            android:id="@+id/nav_coupon"
+            android:title="@string/action_coupon"
+            android:icon="@drawable/coupon"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+        <item
+            android:id="@+id/nav_wallet"
+            android:title="@string/action_wallet"
+            android:icon="@drawable/wallet"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings"
+            android:icon="@drawable/settings"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+        <item
+            android:id="@+id/nav_help"
+            android:title="@string/help"
+            android:icon="@drawable/help"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+        <item
+            android:id="@+id/nav_share"
+            android:title="@string/action_share"
+            android:icon="@drawable/share"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+        <item
+            android:id="@+id/nav_language"
+            android:title="@string/languages"
+            android:icon="@drawable/language"
+            android:actionMenuTextColor="@color/colorAccent"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="@string/action_logout"
+            android:icon="@drawable/logout"
+            android:actionMenuTextColor="@color/colorAccent"
+            />
+    </group>
+    <group android:id="@+id/grp1" >
+
+    </group>
+    <group android:id="@+id/grp2" >
+
+    </group>
+    <group android:id="@+id/grp3" >
+
+
+    </group>
+    <group android:id="@+id/grp4" >
+
+    </group>
+
+    <group android:id="@+id/grp9" >
+
+    </group>
+    <group android:id="@+id/grp5" >
+
+    </group>
+    <group android:id="@+id/grp6">
+
+    </group>
+    <group android:id="@+id/grp7" >
+
+    </group>
+</menu>

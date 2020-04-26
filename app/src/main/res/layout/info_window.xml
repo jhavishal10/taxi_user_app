@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <com.taxitime.rideo.Utils.MyBoldTextView
+            android:id="@+id/lblAddress"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:padding="@dimen/_5sdp"
+            android:lineSpacingMultiplier="1.2"
+            android:gravity="center"
+            android:text=""
+            android:paddingEnd="@dimen/_50sdp"
+            android:maxLines="3"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/full_rounded_button_accent"
+            android:textColor="@color/text_color_white"
+            android:textSize="@dimen/_7sdp" />
+
+        <com.taxitime.rideo.Utils.MyBoldTextView
+            android:id="@+id/txtTime"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:background="@drawable/circle_drawable"
+            android:layout_gravity="right"
+            android:text="12.00 AM "
+            android:gravity="center"
+            android:textColor="@color/black_text_color"
+            android:textSize="@dimen/_7sdp"
+            android:visibility="visible" />
+    </FrameLayout>
+</LinearLayout>

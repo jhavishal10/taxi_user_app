@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Add SOS Number"
+                android:fontFamily="@font/amaranth"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_14sdp" />
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/edittext_background">
+
+                <com.hbb20.CountryCodePicker
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:id="@+id/sos_cpp"
+                    app:ccp_textSize="15sp"
+                    app:ccp_autoDetectCountry="true"
+                    android:layout_weight="0.30"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp" />
+
+
+                <EditText
+                    android:background="@android:color/transparent"
+                    android:id="@+id/sos_phone"
+                    android:gravity="start"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.80"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:textSize="15sp"
+                    android:hint="@string/phone_number"
+                    android:inputType="phone"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/sos_btn"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/btn_splash"
+                android:textColor="@color/white"
+                android:layout_gravity="bottom|end"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/update"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

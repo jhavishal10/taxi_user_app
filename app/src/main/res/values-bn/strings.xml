@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY appName "বোরাখ">
+    <!ENTITY appNameCaps "বোরাখ">
+    <!ENTITY Provider "চালক">
+    <!ENTITY provider "চালক">
+    <!ENTITY service "রাইড ">
+    <!ENTITY Service "রাইড ">
+    ]>
+<resources>
+    <string name="app_name">&appName;</string>
+    <string name="action_settings">সেটিংস</string>
+    <!--Nav items-->
+    <string name="action_payment">পেমেন্ট</string>
+    <string name="action_trips">আপনার ভ্রমণ</string>
+    <string name="action_coupon">কুপন</string>
+    <string name="action_wallet">ওয়ালেট</string>
+    <string name="action_help">হেল্পলাইন</string>
+    <string name="action_share">ভাগ করুন</string>
+    <string name="action_logout">প্রস্থান</string>
+    <string name="languages">ভাষা</string>
+    <string name="choose_language">ভাষা নির্বাচন করুন</string>
+    <!--Activity Begin-->
+    <string name="get_moving_with_tranxit"> &appName; এর সাথে চলুন</string>
+    <string name="enter_your_mail_id">আপনার মেইল আইডি লিখুন</string>
+    <string name="or_connect_with_social_media">সোশ্যাল সাইট দিয়ে লগইন করুন</string>
+    <!--Activity Email -->
+    <string name="whats_your_mail_address">আপনার ইমেল ঠিকানা কি?</string>
+    <!--Activity Password -->
+    <string name="welcome_back">স্বাগতম, অবিরত করতে সাইন ইন করুন</string>
+    <string name="enter_your_password">আপনার পাসওয়ার্ড লিখুন</string>
+    <string name="i_forgot_my_password">আমি পাসওয়ার্ড ভুলে গেছি</string>
+    <string name="i_need_to_create_an_account">আমর একটি অ্যাকাউন্ট তৈরি করতে হবে</string>
+    <string name="apply">আবেদন</string>
+    <!--Activity Register-->
+    <string name="email">ইমেইল</string>
+    <string name="name">নাম</string>
+    <string name="phone_number">মোবাইল নম্বর </string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="first_name">নাম</string>
+    <string name="last_name">পদবি</string>
+
+    <!-- Activity ForgetPassword -->
+    <string name="recover_password">আপনার অ্যাকাউন্ট পুনরুদ্ধারের জন্য  মেইল আইডি লিখুন</string>
+
+    <!-- Coupon Fragment-->
+    <string name="enter_the_coupon">কুপন কোড প্রবেশ করান</string>
+    <string name="add_coupon">কুপন যোগ করুন</string>
+    <string name="add_coupon_code">কুপন কোড যোগ করুন</string>
+
+
+    <!--Welcome screen-->
+    <string name="sign_in">প্রবেশ করুন </string>
+    <string name="signup">নিবন্ধন করুন</string>
+
+    <string name="fresh">>স্বাগতম</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="bookmark">চালক</string>
+
+    <string name="fresh_description">আপনাকে যেখানে যেতে হবে সেখানে পরিবহন করার জন্য &appName; পরিষেবাগুলি উপস্থাপন করা হচ্ছে। </string>
+    <string name="search_description">আপনি যখনই এবং যেখানে  চান একটি রাইড নিতে পারবেন । রাইড নেয়ার জন্য আপনার পরিকল্পনা এবং সময়সূচী আমাদের কাছে পাঠিয়ে দিন.</string>
+    <string name="bookmark_description">আমরা সবচেয়ে বন্ধুত্বপূর্ণ চালক আছে সব ধরনের সেবার জন্য , আপনি আমাদের সম্প্রদায়ের সাহায্য করতে পেশাদারী চালকদের পর্যালোচনা করতে পারেন</string>
+
+    <!-- Edit Activity-->
+    <string name="edit_profile">অ্যাকাউন্ট সম্পাদনা করুন</string>
+    <string name="change_password">পাসওয়ার্ড পরিবর্তন করতে চাচ্ছেন ?</string>
+    <string name="save">সংরক্ষণ করুন</string>
+    <string name="update_success">প্রোফাইল আপডেট করুন </string>
+
+
+    <!-- Home Fragment-->
+    <string name="where_to_go">কোথায় যেতে হবে?</string>
+    <string name="extend_trip">ট্রিপ প্রসারিত করবেন?</string>
+    <string name="selected_option">ইকোনমি</string>
+    <string name="selected_payment_mode">ক্যাশ</string>
+    <string name="select_service">সেবা নির্বাচন করুন</string>
+    <string name="change">পরিবর্তন</string>
+    <string name="request_xuber"> &Service; এর জন্য অনুরোধ করুন</string>
+
+
+    <!--Schedule Layout -->
+    <string name="schedule">সময়সূচীর নির্বাচন করুন &Service; এ</string>
+    <string name="change_date">পরিবর্তন</string>
+    <string name="sample_date">তারিখ নির্বাচন করুন</string>
+    <string name="sample_time">সময় নির্বাচন করুন</string>
+    <string name="next">সময়ের জন্য অনুরোধ করুন</string>
+    <string name="different_time">আপনি অতীত সময়সূচী নির্বাচন করতে পারবেন না, অন্য সময় নির্বাচন করুন</string>
+    <string name="choose_date_time">সময়সূচীর জন্য তারিখ এবং সময় নির্বাচন করুন</string>
+    <string name="upcoming_trips">আসন্ন ট্রিপস</string>
+    <string name="past_trips">অতীত ট্রিপস</string>
+
+    <!--Service List Item -->
+    <string name="no_service">সেবাটি এই স্থানে পাওয়া যাবে না</string>
+    <string name="no_route">কোন রুট নেই, অন্য গন্তব্য নির্বাচন করুন</string>
+    <string name="choose_payment">পেমেন্ট পদ্ধতি নির্বাচন করুন</string>
+
+    <!--Approximate -->
+    <string name="approximate">আনুমানিক ভাড়া</string>
+    <string name="include_all">অন্যান্য চার্জ সহ</string>
+
+    <!-- Confirm your pickup -->
+    <string name="confirm_your_pickup">আপনার পিকআপ পয়েন্ট নিশ্চিত করুন</string>
+    <string name="confirm">পিকআপ নিশ্চিত করুন</string>
+    <string name="close">ঘনিষ্ঠ</string>
+    <string name="done">সম্পন্ন</string>
+
+    <!-- Waiting for provider -->
+    <string name="looking_for_ride">অনুসন্ধান &Service;....</string>
+    <string name="cancel_ride">বাতিল &service;</string>
+    <string name="share">ভাগ</string>
+    <string name="cancel_ride_alert">আপনি &service; বাতিল করতে চান ?</string>
+    <string name="no_providers_found">এই মুহূর্তে কাউকে পাওয়া যাচ্ছে না &service;, টি নিতে কিছুক্ষন অপেক্ষা করুন</string>
+    <string name="no_drivers_found">আপনার ট্রিপ নিতে কোনো চালক পাওয়া যায় নি </string>
+    <string name="driver_busy">আপনার ট্রিপ টি চালক বাতিল করে দিয়েছে , সহযোগিতার জন্য আমাদের সাথে যোগাযোগ করুন</string>
+    <string name="retry">এখন আবার চেষ্টা করুন</string>
+    <string name="try_later">পরে</string>
+
+
+    <!--Driver Accepted-->
+    <string name="sample_name">মাসুদ রানা</string>
+    <string name="sample_service">BMW</string>
+    <string name="call_btn">কল</string>
+    <string name="cancel_trip">ট্রিপ বাতিল করুন</string>
+    <string name="surge_pricing">শিখর ঘন্টা কারণে, সরবরাহকারীদের প্রাপ্যতা উপর ভিত্তি করে চার্জ পরিবর্তিত হবে</string>
+    <string name="pickup_drop">পিকআপ এবং ড্রপ অবস্থান উভয় দয়া করে নির্বাচন করুন</string>
+
+
+    <!--Payment Fragment-->
+    <string name="payment">পেমেন্ট</string>
+    <string name="payment_methods">পেমেন্ট মেথডস</string>
+    <string name="add_payments">পেমেন্ট জন্য কার্ড যোগ করুন</string>
+    <string name="card_details">কার্ডের বিবরণ</string>
+    <string name="card_number">ক্রেডিট/ডেবিট কার্ড নম্বর</string>
+    <string name="cvv">CVV</string>
+    <string name="add">কার্ড যোগ করুন</string>
+    <string name="enter_card_details">কার্ড বিবরণ বৈধ নয়</string>
+    <string name="are_you_sure">আপনি নিশ্চিত মুছে ফেলতে চান ?</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+
+
+    <!--Status -->
+    <string name="arrived">&Provider; আপনার অবস্থান এ এসেছে</string>
+    <string name="picked_up">&service; শুরু হয়েছে</string>
+    <string name="dropped">&Service; সম্পন্ন হয়েছে</string>
+
+    <!--Your Trips-->
+    <string name="history">ইতিহাস</string>
+    <string name="comments">মন্তব্য</string>
+    <string name="no_trips">আপনি এর আগে কোনো রাইড নেন নি </string>
+    <string name="no_upcoming_trips">আপনি কোন আসন্ন ভ্রমণ নেই</string>
+    <string name="your_trips">আপনার ট্রিপস</string>
+    <string name="upcoming">আসন্ন</string>
+    <string name="past">অতীত</string>
+
+
+    <!--Invoice -->
+    <string name="invoice">চালান</string>
+    <string name="base_price">অনুমনিক ভাড়া</string>
+    <string name="booking_id">বুকিং আইডি</string>
+    <string name="extra_price">অতিরিক্ত</string>
+    <string name="tax">ভ্যাট</string>
+    <string name="wallet_detection">ওয়ালেট ডিটেকশন</string>
+    <string name="discount_detection">ডিসকাউন্ট প্রয়োগ</string>
+    <string name="total">মোট</string>
+    <string name="pay_now">এখন পরিশোধ করুন</string>
+    <string name="distance_price">দূরত্ব ভাড়া</string>
+
+
+    <!--Rate provider-->
+    <string name="rate_provider">আপনার ট্রিপ রেট</string>
+    <string name="write_your_comment">আপনার মন্তব্য লিখুন</string>
+    <string name="submit">জমা দিন</string>
+
+
+    <!-- Source and destination-->
+    <string name="source_location">আপনার অবস্থান</string>
+    <string name="destination_location">কোথা থেকে</string>
+
+    <!--Show Dailog-->
+    <string name="connect_to_network">নেটওয়ার্ক সংযোগ করুন বা প্রস্থান করুন</string>
+    <string name="change_pwd_dialog">আপনার পাসওয়ার্ড সফলভাবে আপডেট করা হয়েছে। আপনার নতুন পাসওয়ার্ড দিয়ে লগইন করুন</string>
+    <string name="cencel_request">আপনি কি নিশ্চিত &service; টি বাতিল করবেন ?</string>
+    <string name="connect_to_wifi">WIFI এর সাথে সংযোগ করুন</string>
+    <string name="quit">বাতিল</string>
+
+
+    <!-- Error Messages-->
+    <string name="something_went_wrong">কোনো সমস্যা হয়েছে</string>
+    <string name="something_went_wrong_net">কোনো সমস্যা হয়েছে , ইন্টারনেট সংযোগ চেক করুন</string>
+    <string name="oops_connect_your_internet">Oops ! আপনার ইন্টারনেট সংযোগ করুন </string>
+    <string name="server_down">সার্ভার এ প্রবেশ করা সম্ভব হচ্ছে না</string>
+    <string name="please_try_again">আবার চেষ্টা করুন</string>
+    <string name="please_wait">অপেক্ষা করুন ...</string>
+    <string name="email_validation">আপনার বৈধ ইমেইল আইডি লিখুন</string>
+    <string name="not_valid_email">ইমেইল আইডি বৈধ না</string>
+    <string name="password_validation">পাসওয়ার্ড খালি রাখা যাবে না</string>
+    <string name="first_name_empty">নাম প্রয়োজন</string>
+    <string name="last_name_empty">পদবী প্রয়োজন</string>
+    <string name="mobile_number_empty">মোবাইল নম্বর প্রয়োজন</string>
+    <string name="mobile_number_validation">মোবাইল নম্বরের সংখ্যা 10 থেকে ২0 ডিজিটের মধ্যে থাকতে হবে</string>
+    <string name="your_cards">আপনার কার্ড</string>
+    <string name="enter_details_register">আপনার বিবরণ লিখুন</string>
+    <string name="fb_cancel">ফেসবুক লগইন বাতিল</string>
+    <string name="fb_error">ফেসবুক লগইন ব্যর্থ হয়েছে</string>
+    <string name="google_login">গুগল লগইন ব্যর্থ হয়েছে</string>
+    <string name="social_cancel">সোশ্যাল লগইন বাতিল</string>
+    <string name="registration_failed">নিবন্ধন বাতিল</string>
+
+    <string name="add_money_using">ব্যবহার করে টাকা যোগ করুন</string>
+    <string name="add_money">যোগ করুন</string>
+    <!--Coupon Activity-->
+    <string name="not_vaild_coupon">কুপন বৈধ নয় বা মেয়াদ শেষ হতে পারে</string>
+    <string name="coupon_added">কুপন সফলভাবে প্রয়োগ হয়েছে</string>
+    <string name="add_coupon_txt">কুপন যোগ করুন</string>
+    <string name="added_coupon">আপনার দ্বারা কুপন প্রয়োগ হয়েছে</string>
+    <string name="already_in_use_coupon">পূর্বে আপনার দ্বারা কুপন ব্যবহার হয়েছে</string>
+    <string name="expired_coupon">দুঃখিত, কুপন মেয়াদ শেষ হয়ে গেছে</string>
+    <string name="off">বন্ধ</string>
+    <string name="the_applied_coupon">কুপন কোড প্রয়োগ</string>
+    <string name="valid_until">বৈধতার সীমা</string>
+    <string name="enter_the_code">কুপন কোড লিখুন</string>
+
+
+    <!--Wallet Activity-->
+    <string name="wallet_balance">আপনার ওয়ালেট এ টাকার পরিমাণ</string>
+
+
+    <!--Change Password-->
+    <string name="change_password_title">পাসওয়ার্ড পরিবর্তন</string>
+    <string name="current_password">বর্তমান পাসওয়ার্ড</string>
+    <string name="new_password">নতুন পাসওয়ার্ড</string>
+    <string name="confirm_password">নতুন পাসওয়ার্ড নিচ্চিত করুন</string>
+    <string name="please_enter_current_pass">বর্তমান পাসওয়ার্ড দিন</string>
+    <string name="please_enter_new_pass">নতুন পাসওয়ার্ড লিখুন </string>
+    <string name="please_enter_confirm_pass">নতুন পাসওয়ার্ড নিচ্চিত করুন</string>
+    <string name="different_passwords">পাসওয়ার্ড মেলে না</string>
+    <string name="commision">সেবা খরচ</string>
+    <string name="request_cancel">আপনি অনুরোধ বাতিল করেছেন</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">হ্যালো ব্ল্যান্ক ফ্রাগমেন্ট</string>
+    <string name="valid_image">কোনো ছবি পাওয়া যায় নি</string>
+    <string name="otp_validation">OTP ফিল্ড প্রয়োজন</string>
+    <string name="inncorrect_otp">ভুল OTP</string>
+    <string name="confirm_password_validation">পাসওয়ার্ড মেলেনি</string>
+    <string name="reset_password">পাসওয়ার্ড রিসেট করুন</string>
+    <string name="note">নোট :আপনার নিবন্ধিত ইমেইল ঠিকানা থেকে OTP লিখুন </string>
+    <string name="secrete_code"> OTP লিখুন </string>
+    <string name="connect_with_social_media">সামাজিক যোগাযোগ সাইটের সাথে সংযোগ করুন</string>
+    <string name="logout_alert">আপনি লগ আউট করতে চান ?</string>
+    <string name="distance_travelled">ভ্রমণের দূরত্ব</string>
+    <string name="time_taken">সময় নিয়েছে</string>
+    <string name="extend_trip_alert">আপনি নির্বাচিত স্থানের সঙ্গে ট্রিপ প্রসারিত করতে চান?</string>
+    <string name="choose_social">একটি অ্যাকাউন্ট নির্বাচন করুন</string>
+    <string name="facebook_name">ফেইসবুক</string>
+    <string name="google_name">গুগল</string>
+    <string name="schdule_accept">আপনার অনুরোধ ড্রাইভার সাড়া দিয়েছে</string>
+    <string name="no_comments">কোন মন্তব্য নেই</string>
+    <string name="pin_location">পিনের অবস্থান সেট করুন</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="home_location">বাসা</string>
+    <string name="delete">ডিলিট</string>
+    <string name="favorites">প্রিয়</string>
+    <string name="language">ভাষা পরিবর্তন করুন</string>
+    <string name="add_home_location">বাসা যোগ করুন</string>
+    <string name="work_location">কর্মস্থান</string>
+    <string name="add_work_location">কর্মস্থান যোগ করুন</string>
+    <string name="save_location">সংরক্ষিত স্থান</string>
+    <string name="type">মডেল</string>
+    <string name="emaergeny_call">আপনি কি জরুরী কল করতে চান?</string>
+    <string name="user_no_mobile">মোবাইল নম্বর নেই</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="reason_to_cancel">বাতিল করার কারণ</string>
+    <string name="reason">একটি বার্তা ড্রপ করুন</string>
+
+    <!--Activity Help-->
+    <string name="help_msg">শীঘ্রই আমাদের একজন টীম মেম্বার আপনার সাথে যোগাযোগ করবে </string>
+    <string name="help_title">&appNameCaps; সাহায্য</string>
+    <string name="schedule_request">সময়সূচীর</string>
+    <string name="surge_pricing_title">উচ্চ চাহিদা মূল্য পরিবর্তিত হতে পারে</string>
+    <string name="request_now">রাইড শুরু করুন</string>
+    <string name="help">সাহায্য</string>
+    <string name="book_name">বুকিং আইডি</string>
+    <string name="password_size">পাসওয়ার্ড আকার অন্তত 6 হতে হবে</string>
+    <string name="sorry_for_inconvinent">অসুবিধার জন্য দুক্ষিত,আমাদের সহায়ক এখন ব্যস্ত</string>
+    <string name="email_exist">ইমেইল ইতিমধ্যে গ্রহণ করা হয়েছে</string>
+    <string name="first_name_no_number">নামের জন্য সংখ্যা গ্রহণ যোগ্য না</string>
+    <string name="last_name_no_number">পদবীর জন্য সংখ্যা গ্রহণ যোগ্য না</string>
+    <string name="ok">ওকে</string>
+    <string name="use_wallet_amount">ওয়ালেট এর টাকা ব্যবহার করুন</string>
+    <string name="arriving">&Provider; আপনার অনুরোধ গৃহীত</string>
+    <string name="view_invoice">রশিদ </string>
+    <string name="payment_set_as_card">পেমেন্ট মোড কার্ড এ পরিবর্তন</string>
+    <string name="payment_set_as_cash">পেমেন্ট মোড ক্যাশ এ পরিবর্তন </string>
+    <string name="walletHistory">ওয়ালেট ইতিহাস</string>
+    <string name="couponHistory">কুপন ইতিহাস</string>
+    <string name="passbook">পাসবুক</string>
+    <string name="settings">সেটিংস</string>
+    <string name="no_wallet_history">ওয়ালেট ইতিহাস নেই</string>
+    <string name="no_coupon_history">কুপন ইতিহাস নেই</string>
+    <string name="new_version_available">নতুন সংস্করণ রিলিজ হয়েছে</string>
+    <string name="update_to_continue">নতুন সংস্করণটি আপডেট করুন</string>
+    <string name="update">আপডেট</string>
+    <string name="no_thanks">না , ধন্যবাদ</string>
+    <string name="new_password_validation"> পুরানো পাসওয়ার্ড নতুন পাসওয়ার্ড হিসাবে ব্যবহার করা যাবে না</string>
+    <string name="password_validation1">পাসওয়ার্ড এ সর্বনিম্ন 6 অক্ষর থাকতে হবে, সর্বোচ্চ ১৬</string>
+    <string name="add_amount">টাকা যোগ করুন</string>
+    <string name="enter_the_amount">টাকার পরিমাণ দিন</string>
+    <string name="amount_alert">টাকার পরিমাণ দিন</string>
+    <string name="add_money_to_wallet">ওয়ালেট এ টাকা যোগ করুন</string>
+    <string name="version">সংস্করণ</string>    <string name="email_address">Email Address</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="what_s_your_destination">What\'s Your Destination ?</string>
+    <string name="estimated_time">Estimated Time</string>
+    <string name="distance">Distance</string>
+    <string name="enter_the_code_which_has_been_sent">Enter the code which has been sent</string>
+    <string name="verification">Sign In</string>
+    <string name="verify_your_number">Enter Your Number</string>
+    <string name="please_enter_your_mobile_number_to_receive_a_verification_code">Please enter your mobile number to receive a verification code.</string>
+    <string name="i_agree_ro_the_terms_amp_conditions_and_privacy_policy"><![CDATA[I agree ro the Terms & Conditions and Privacy Policy]]></string>
+    <string name="estimated_price">Estimated Price</string>
+    <string name="ride_distance">Ride Distance</string>
+    <string name="user_name">User Name</string>
+    <string name="chat">Chat</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="enter_your_pin">Enter Your Pin/ Password</string>
+    <string name="where_are_you_going">Where are you going ?</string>
+    <string name="total_amount_to_pay">Total amount to pay !</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="sos_details">SOS Details</string>
+    <string name="sos_number">SOS Number</string>
+    <string name="next_btn">Next</string>
+    <string name="eta_time">ETA</string>
+    <string name="sample_address">110, StJoseph Chruch, Richards, road Newyork</string>
+    <string name="or">Or</string>
+    <string name="time_taken_price">Time Fare</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="enter_otp_here">Enter OTP Here</string>
+    <string name="no_money_available_in_wallet">No Money Available In Wallet</string>
+    <string name="daily">Daily</string>
+    <string name="outstation">Outstation</string>
+    <string name="experience_the_new_app_it_s_faster_smarter_amp_better"><![CDATA[Experience the new app. It\'s faster, smarter & better]]></string>
+    <string name="enjoy_it">Enjoy It</string>
+    <string name="send_otp_again">Send OTP Again</string>
+
+</resources>

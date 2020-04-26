@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/senderlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginStart="10dp"
+            android:id="@+id/chatuserimg"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="0.5dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_dummy_user"
+            android:background="@drawable/circule_img"
+            android:layout_height="40dp"/>
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/chatusername"
+                android:fontFamily="@font/amaranth"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user_name"
+                android:textColor="@color/dark_gray"/>
+
+            <TextView
+                android:id="@+id/chatusermessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="100dp"
+                android:background="@drawable/chat_receivce_ui"
+                android:fontFamily="@font/amaranth"
+                android:minHeight="30dp"
+                android:padding="5dp"
+                android:text="For sent messages, align the chat bubble to the right, and remove the sender's name and profile image."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/receiverlayout"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
+        <LinearLayout
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded">
+
+            <TextView
+                android:id="@+id/chatmessage"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chat_send_ui"
+                android:fontFamily="@font/amaranth"
+                android:minHeight="30dp"
+                android:padding="5dp"
+                android:text="For sent messages, align the chat bubble to the right, and remove the sender's name and profile image."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

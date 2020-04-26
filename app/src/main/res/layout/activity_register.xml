@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/topbar"
+                android:layout_gravity="top"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:background="@color/colorPrimaryDark">
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/backArrow"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/ic_arrow_whi_black_24dp" />
+                <TextView
+                    android:paddingStart="30sp"
+                    android:layout_weight="0.80"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/signup"
+                    android:gravity="start"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_gravity="center_vertical"
+                    tools:ignore="RtlSymmetry" />
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/cdo"
+                    android:layout_weight="0.10"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <com.taxitime.rideo.Utils.MyEditText
+                            android:id="@+id/first_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/edittext_background"
+                            android:gravity="start|center_vertical"
+                            android:hint="@string/first_name"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords|textPersonName"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:textAlignment="viewStart" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="1">
+
+                        <com.taxitime.rideo.Utils.MyEditText
+                            android:id="@+id/last_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/edittext_background"
+                            android:gravity="start|center_vertical"
+                            android:hint="@string/last_name"
+                            android:imeOptions="actionNext"
+                            android:inputType="textCapWords|textPersonName"
+                            android:maxLines="1"
+                            android:paddingStart="10dp"
+                            android:textAlignment="viewStart" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <com.taxitime.rideo.Utils.MyEditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittext_background"
+                        android:gravity="start|center_vertical"
+                        android:hint="@string/email"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:paddingStart="10dp"
+                        android:textAlignment="viewStart" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/edittext_background">
+
+                    <com.hbb20.CountryCodePicker
+                        android:layout_gravity="center"
+                        android:visibility="visible"
+                        android:id="@+id/mcpp"
+                        app:ccp_textSize="15sp"
+                        app:ccp_autoDetectCountry="true"
+                        android:layout_weight="0.30"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp" />
+
+
+                    <EditText
+                        android:background="@android:color/transparent"
+                        android:id="@+id/idphone"
+                        android:gravity="start"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.80"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:textSize="15sp"
+                        android:hint="@string/phone_number"
+                        android:inputType="phone"
+                        android:padding="10dp" />
+
+                </LinearLayout>
+                <Button
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/get_otp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_shape"
+                    android:paddingStart="30dp"
+                    android:paddingEnd="30dp"
+                    android:text="@string/get_otp"
+                    android:textColor="@color/black_text_color"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    />
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/view_beforeverification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/enter_otp_here"
+                        android:fontFamily="@font/amaranth"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <com.chaos.view.PinView
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/otppin"
+                        style="@style/PinWidget.PinView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:cursorVisible="true"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="#222222"
+                        android:textSize="18sp"
+                        app:cursorColor="@color/colorPrimary"
+                        app:cursorWidth="2dp"
+                        app:itemCount="6"
+                        app:itemHeight="48dp"
+                        app:itemRadius="4dp"
+                        app:itemSpacing="5dp"
+                        app:itemWidth="36dp"
+                        app:lineColor="@color/colorPrimary"
+                        app:lineWidth="2dp"
+                        app:viewType="rectangle" />
+
+                    <Button
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/verify_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/button_shape"
+                        android:paddingStart="30dp"
+                        android:paddingEnd="30dp"
+                        android:text="Verify"
+                        android:textColor="@color/black_text_color"
+                        android:textSize="20sp"
+                        android:visibility="visible"
+                        />
+
+                    <TextView
+                        android:enabled="false"
+                        android:id="@+id/sendotpagain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/send_otp_again"
+                        android:fontFamily="@font/amaranth"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_14sdp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/view_afterverification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Password/ Pin "
+                        android:fontFamily="@font/amaranth"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <com.chaos.view.PinView
+                        android:layout_gravity="center_horizontal"
+                        android:id="@+id/passpin"
+                        style="@style/PinWidget.PinView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:cursorVisible="true"
+                        android:inputType="number"
+                        android:padding="10dp"
+                        android:textColor="#222222"
+                        android:textSize="18sp"
+                        app:cursorColor="@color/colorPrimary"
+                        app:cursorWidth="2dp"
+                        app:itemCount="6"
+                        app:itemHeight="48dp"
+                        app:itemRadius="4dp"
+                        app:itemSpacing="5dp"
+                        app:itemWidth="36dp"
+                        app:lineColor="@color/colorPrimary"
+                        app:lineWidth="2dp"
+                        app:viewType="rectangle" />
+
+
+                    <com.taxitime.rideo.Utils.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/phone_number"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp"
+                        android:visibility="gone" />
+
+
+                    <com.taxitime.rideo.Utils.MyTextView
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/password"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_gravity="bottom|end"
+                        android:layout_marginBottom="15dp"
+                        android:orientation="horizontal">
+
+                        <com.taxitime.rideo.Utils.MyCheckbox
+                            android:layout_gravity="center_vertical"
+                            android:id="@+id/checkedterms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_gravity="center_vertical"
+                            android:id="@+id/termms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/i_agree_ro_the_terms_amp_conditions_and_privacy_policy"/>
+
+                    </LinearLayout>
+                    <Button
+                        android:id="@+id/nextBtn"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/btn_splash"
+                        android:textColor="@color/white"
+                        android:layout_gravity="bottom|end"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="monospace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/signup"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/alsign"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom|end"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:text="Already Have An Account ! Sign In Here"/>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "760832166037",
+    "firebase_url": "https://taxitime-11580.firebaseio.com",
+    "project_id": "taxitime-11580",
+    "storage_bucket": "taxitime-11580.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760832166037:android:5b5585da03cafaa9d1f39c",
+        "android_client_info": {
+          "package_name": "com.taxitime.rideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760832166037-arg1jlh7kjstbs8k8v8a9a7r0m9ovvbg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_OGJDQXowbFJ7hYRHXNFpmOr5hr520z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760832166037-arg1jlh7kjstbs8k8v8a9a7r0m9ovvbg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
