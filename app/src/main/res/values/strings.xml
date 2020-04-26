@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "TaxiTime"><!ENTITY appNameCaps "TaxiTime"><!ENTITY Provider "TaxiTime Driver"><!ENTITY provider "TaxiTime Driver"><!ENTITY Service "Ride"><!ENTITY service "ride">]>
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY appName "Gerayo Amahoro"><!ENTITY appNameCaps "Gerayo Amahoro"><!ENTITY Provider "Gerayo Amahoro"><!ENTITY provider "Gerayo Amahoro"><!ENTITY Service "Ride"><!ENTITY service "ride">]>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <string name="app_name" translatable="false">&appName;</string>
     <!--Google map-->
-    <string name="google_map_api" translatable="false">Google_map_api</string>
+    <string name="google_map_api" translatable="false">AIzaSyDGucrP3ZawBDktOPA6rBx6bmamZTFuME4</string>
 
     <!--Facebook App Id Account Kit -->
     <string name="facebook_app_id" translatable="false">1947608288660880</string>

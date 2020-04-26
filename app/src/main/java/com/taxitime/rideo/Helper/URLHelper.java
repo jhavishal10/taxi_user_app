@@ -3,7 +3,7 @@ package com.taxitime.rideo.Helper;
 
 public class URLHelper {
 
-    public static final String base = "https://taxitime.co.in/";
+    public static final String base = "http://gerayo.jpnnotes.africa/";
     public static final String REDIRECT_URL = base;
     public static final String REDIRECT_SHARE_URL = "http://maps.google.com/maps?q=loc:";
     public static final String APP_URL = "https://play.google.com/store/apps/details?id=";
