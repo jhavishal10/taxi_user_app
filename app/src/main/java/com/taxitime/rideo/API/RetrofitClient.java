@@ -29,7 +29,7 @@ public class RetrofitClient {
         }
         return mInstance;
     }
-    public Api2 getApi(){
-        return retrofit.create(Api2.class);
+    public ApiService getApi(){
+        return retrofit.create(ApiService.class);
     }
 }
