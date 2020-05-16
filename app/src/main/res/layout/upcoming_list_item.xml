@@ -57,7 +57,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <com.taxitime.rideo.Utils.MyBoldTextView
+                            <com.taxitime.ride.Utils.MyBoldTextView
                                 android:id="@+id/tripDate"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -72,14 +72,14 @@
                                 android:layout_height="wrap_content"
                                 android:orientation="vertical">
 
-                                <com.taxitime.rideo.Utils.MyTextView
+                                <com.taxitime.ride.Utils.MyTextView
                                     android:id="@+id/booking_id"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Booking ID : 123456789"
                                     android:textSize="@dimen/_10sdp" />
 
-                                <com.taxitime.rideo.Utils.MyTextView
+                                <com.taxitime.ride.Utils.MyTextView
                                     android:id="@+id/car_name"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                             android:gravity="center"
                             android:orientation="vertical">
 
-                            <com.taxitime.rideo.Utils.MyBoldTextView
+                            <com.taxitime.ride.Utils.MyBoldTextView
                                 android:id="@+id/tripAmount"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -106,7 +106,7 @@
                                 android:textColor="@color/black_text_color"
                                 android:textSize="14sp" />
 
-                            <com.taxitime.rideo.Utils.MyButton
+                            <com.taxitime.ride.Utils.MyButton
                                 android:id="@+id/btnCancel"
                                 android:layout_width="wrap_content"
                                 android:layout_height="@dimen/_25sdp"
@@ -134,7 +134,7 @@
                 android:paddingEnd="8dp"
                 android:visibility="gone">
 
-                <com.taxitime.rideo.Utils.MyTextView
+                <com.taxitime.ride.Utils.MyTextView
                     android:id="@+id/tripTime"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

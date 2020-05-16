@@ -30,7 +30,7 @@
             android:fontFamily="@font/lato_black"
             android:textStyle="bold" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/activity_vertical_margin"

@@ -8,6 +8,7 @@
     tools:context=".Activities.ActivityHelp">
 
     <LinearLayout
+                android:layout_marginTop="30dp"
         android:id="@+id/lnrTitle"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
@@ -24,7 +25,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -33,7 +34,7 @@
             android:textSize="18sp" />
     </LinearLayout>
 
-    <com.taxitime.rideo.Utils.MyBoldTextView
+    <com.taxitime.ride.Utils.MyBoldTextView
         android:id="@+id/title_txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,7 +94,7 @@
         android:src="@drawable/skype"
         android:tint="@color/colorPrimaryDark"/>
     </LinearLayout>
-    <com.taxitime.rideo.Utils.MyBoldTextView
+    <com.taxitime.ride.Utils.MyBoldTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/lnrIcons"

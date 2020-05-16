@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.taxitime.rideo.com.temport.borakh.Activities.AddCard">
+    tools:context="com.taxitime.ride.com.temport.borakh.Activities.AddCard">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -33,7 +33,7 @@
             android:textSize="18sp" />
     </LinearLayout>
 
-    <com.taxitime.rideo.Utils.MyBoldTextView
+    <com.taxitime.ride.Utils.MyBoldTextView
         android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
         android:layout_margin="20dp"
         app:theme="@style/NavigationDrawerStyle" />
 
-    <com.taxitime.rideo.Utils.MyButton
+    <com.taxitime.ride.Utils.MyButton
         android:id="@+id/addCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

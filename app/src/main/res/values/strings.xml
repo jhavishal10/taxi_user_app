@@ -413,9 +413,9 @@
     <string name="sample_address">110, StJoseph Chruch, Richards, road Newyork</string>
     <string name="or">Or</string>
     <string name="time_taken_price">Time Fare</string>
-    <string name="daily">Daily</string>
+    <string name="daily" tools:ignore="MissingTranslation">Daily</string>
     <string name="outstation">Outstation</string>
-    <string name="experience_the_new_app_it_s_faster_smarter_amp_better"><![CDATA[Experience the new app. It\'s faster, smarter & better]]></string>
+    <string name="experience_the_new_app_it_s_faster_smarter_amp_better"><![CDATA[Experience the Gerayo Amahoro app. It\'s faster, smarter & better]]></string>
     <string name="enjoy_it">Enjoy It</string>
     <string name="send_otp_again">Send OTP Again</string>
     <string name="get_otp">Get OTP</string>

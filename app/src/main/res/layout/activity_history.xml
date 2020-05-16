@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+                android:layout_marginTop="30dp"
         android:id="@+id/lnrTitle"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
@@ -22,7 +23,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:id="@+id/lblTitle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

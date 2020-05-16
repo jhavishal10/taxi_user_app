@@ -1,0 +1,46 @@
+package com.taxitime.ride.api;
+
+import com.taxitime.ride.Models.ChatResponse;
+import com.taxitime.ride.Models.CityResponse;
+import com.taxitime.ride.Models.Errorresponse;
+import com.taxitime.ride.Models.UserResponse;
+
+import retrofit2.Call;
+import retrofit2.http.Field;
+import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
+import retrofit2.http.POST;
+import retrofit2.http.Path;
+
+public interface ApiService {
+    @FormUrlEncoded
+    @POST("staffloginbyphone")
+    Call<UserResponse> userlogin(
+            @Field("phone") String phone
+    );
+
+    @FormUrlEncoded
+    @POST("deletefav")
+    Call<Errorresponse> deletefav(
+            @Field("id") String id
+    );
+
+    @GET("getcity")
+    Call<CityResponse> getcity();
+
+    @FormUrlEncoded
+    @POST("addchat")
+    Call<Errorresponse> addchat(
+            @Field("booking_id") String booking_id,
+            @Field("uid") String uid,
+            @Field("pid") String pid,
+            @Field("message") String message,
+            @Field("type") String type
+    );
+
+    @GET("getchat/{booking_id}")
+    Call<ChatResponse> getchat(
+            @Path("booking_id") String booking_id
+    );
+
+}

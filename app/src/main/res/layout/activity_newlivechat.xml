@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".Activities.newlivechat">
     <LinearLayout
+                android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -23,7 +24,7 @@
                 android:layout_marginStart="16dp"
                 android:src="@drawable/back_icon" />
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"

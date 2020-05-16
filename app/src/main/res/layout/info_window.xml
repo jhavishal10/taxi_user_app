@@ -11,7 +11,7 @@
         android:paddingBottom="@dimen/_5sdp"
         android:orientation="horizontal">
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:id="@+id/lblAddress"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_50sdp"
@@ -26,7 +26,7 @@
             android:textColor="@color/text_color_white"
             android:textSize="@dimen/_7sdp" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:id="@+id/txtTime"
             android:layout_width="@dimen/_50sdp"
             android:layout_height="@dimen/_50sdp"

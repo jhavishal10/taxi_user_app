@@ -22,7 +22,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -38,9 +38,10 @@
         android:layout_height="match_parent"
         android:layout_marginStart="10dp"
         android:layoutDirection="locale"
+        android:layout_marginTop="30dp"
         android:orientation="vertical">
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/payment_methods"
@@ -63,7 +64,7 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/money_icon" />
 
-            <com.taxitime.rideo.Utils.MyTextView
+            <com.taxitime.ride.Utils.MyTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -86,7 +87,7 @@
 
         </RelativeLayout>
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -94,7 +95,7 @@
             android:textColor="@color/black_text_color"
             android:textSize="18sp" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:id="@+id/empty_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -110,7 +111,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:id="@+id/addCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:layout_marginTop="30dp"
     android:background="@color/text_color_white">
 
     <LinearLayout
@@ -23,7 +24,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -48,7 +49,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/add_coupon_txt"
@@ -78,7 +79,7 @@
                     android:layout_margin="@dimen/_5sdp"
                     android:orientation="vertical">
 
-                    <com.taxitime.rideo.Utils.MyBoldTextView
+                    <com.taxitime.ride.Utils.MyBoldTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -87,7 +88,7 @@
                         android:text="@string/add_coupon_code"
                         android:textDirection="locale" />
 
-                    <com.taxitime.rideo.Utils.MyEditText
+                    <com.taxitime.ride.Utils.MyEditText
                         android:id="@+id/coupon_et"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -119,7 +120,7 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
@@ -138,7 +139,7 @@
 
     </LinearLayout>
 
-    <com.taxitime.rideo.Utils.MyButton
+    <com.taxitime.ride.Utils.MyButton
         android:id="@+id/apply_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

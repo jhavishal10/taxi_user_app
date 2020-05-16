@@ -22,7 +22,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:id="@+id/date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
                     android:textStyle="bold"
                     android:textColor="@android:color/black"
                     />
-                <com.taxitime.rideo.Utils.MyTextView
+                <com.taxitime.ride.Utils.MyTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="end"
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:orientation="horizontal">
-                <com.taxitime.rideo.Utils.MyTextView
+                <com.taxitime.ride.Utils.MyTextView
                     android:id="@+id/amount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_20sdp"
                 android:orientation="horizontal">
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:id="@+id/lblPaymentType"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_5sdp"
                 android:orientation="horizontal">
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:id="@+id/paymentBy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

@@ -19,7 +19,7 @@
             android:src="@drawable/back_drawable" />
 
 
-        <com.taxitime.rideo.Utils.MyTextView
+        <com.taxitime.ride.Utils.MyTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp">
 
-                <com.taxitime.rideo.Utils.MyEditText
+                <com.taxitime.ride.Utils.MyEditText
                     android:id="@+id/enter_ur_mailID"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
 
 
 
-            <com.taxitime.rideo.Utils.MyTextView
+            <com.taxitime.ride.Utils.MyTextView
                 android:id="@+id/forgetPassword"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                 android:layout_marginStart="16dp"
                 android:visibility="gone" />
 
-            <com.taxitime.rideo.Utils.MyTextView
+            <com.taxitime.ride.Utils.MyTextView
                 android:id="@+id/register"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

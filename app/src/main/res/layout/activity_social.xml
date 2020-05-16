@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.taxitime.rideo.Activities.BeginScreen">
+    tools:context="com.taxitime.ride.Activities.BeginScreen">
 
     <ImageView
         android:id="@+id/backArrow"
@@ -20,7 +20,7 @@
         android:layout_weight="1.9"
         android:orientation="vertical">
 
-        <com.taxitime.rideo.Utils.MyTextView
+        <com.taxitime.ride.Utils.MyTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -51,7 +51,7 @@
                 android:src="@drawable/fb"
                 android:layout_gravity="center"/>
 
-            <com.taxitime.rideo.Utils.MyTextView
+            <com.taxitime.ride.Utils.MyTextView
                 android:id="@+id/enter_ur_mailID"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

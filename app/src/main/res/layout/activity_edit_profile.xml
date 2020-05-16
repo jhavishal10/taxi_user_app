@@ -7,9 +7,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/text_color_white"
-    tools:context="com.taxitime.rideo.Activities.EditProfile">
+    tools:context="com.taxitime.ride.Activities.EditProfile">
 
     <LinearLayout
+                android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
         android:elevation="@dimen/_10sdp"
@@ -25,7 +26,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginStart="10dp"
@@ -80,14 +81,14 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <com.taxitime.rideo.Utils.MyBoldTextView
+                    <com.taxitime.ride.Utils.MyBoldTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/first_name"
                         android:textSize="16sp" />
 
 
-                    <com.taxitime.rideo.Utils.MyEditText
+                    <com.taxitime.ride.Utils.MyEditText
                         android:id="@+id/first_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -116,14 +117,14 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <com.taxitime.rideo.Utils.MyBoldTextView
+                    <com.taxitime.ride.Utils.MyBoldTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/last_name"
                         android:textSize="16sp" />
 
 
-                    <com.taxitime.rideo.Utils.MyEditText
+                    <com.taxitime.ride.Utils.MyEditText
                         android:id="@+id/last_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -153,14 +154,14 @@
                 android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/phone_number"
                     android:textSize="16sp" />
 
 
-                <com.taxitime.rideo.Utils.MyEditText
+                <com.taxitime.ride.Utils.MyEditText
                     android:enabled="false"
                     android:id="@+id/mobile_no"
                     android:layout_width="match_parent"
@@ -190,13 +191,13 @@
                 android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/email"
                     android:textSize="16sp" />
 
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -216,7 +217,7 @@
                 android:layout_height="1dp"
                 android:background="@android:color/darker_gray" />
 
-            <com.taxitime.rideo.Utils.MyButton
+            <com.taxitime.ride.Utils.MyButton
                 android:id="@+id/saveBTN"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -226,7 +227,7 @@
                 android:textColor="@android:color/white"
                 />
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:id="@+id/changePasswordTxt"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"

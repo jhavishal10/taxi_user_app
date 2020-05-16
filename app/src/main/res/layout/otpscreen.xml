@@ -6,9 +6,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/grey_10"
-    tools:context="com.taxitime.rideo.Activities.otpscreen">
+    tools:context="com.taxitime.ride.Activities.otpscreen">
 
     <LinearLayout
+                android:layout_marginTop="30dp"
         android:id="@+id/topbar"
         android:layout_gravity="top"
         android:layout_width="match_parent"

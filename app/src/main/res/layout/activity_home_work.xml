@@ -28,7 +28,7 @@
             android:src="@drawable/back_icon" />
 
         <!-- City and Country Selector -->
-        <com.taxitime.rideo.Utils.MyEditText
+        <com.taxitime.ride.Utils.MyEditText
             android:id="@+id/txtLocation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

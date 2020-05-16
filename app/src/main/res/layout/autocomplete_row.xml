@@ -28,7 +28,7 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:id="@+id/place_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
                 android:visibility="visible" />
 
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:id="@+id/place_detail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

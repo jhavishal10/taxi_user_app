@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@drawable/welcome_back"
     android:gravity="center"
-    tools:context="com.taxitime.rideo.Activities.SplashScreen">
+    tools:context="com.taxitime.ride.Activities.SplashScreen">
 
     <ImageView
         android:layout_width="224dp"

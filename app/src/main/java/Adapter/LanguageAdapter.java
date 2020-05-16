@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-import com.taxitime.rideo.R;
+import com.taxitime.ride.R;
 
 import java.util.ArrayList;
 

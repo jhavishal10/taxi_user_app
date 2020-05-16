@@ -164,7 +164,7 @@
                                     android:layout_marginStart="10dp"
                                     app:srcCompat="@drawable/ic_search_black_24dp" />
 
-                                <com.taxitime.rideo.Utils.MyBoldTextView
+                                <com.taxitime.ride.Utils.MyBoldTextView
                                     android:id="@+id/destination"
                                     style="@style/Base.TextAppearance.AppCompat.Body1"
                                     android:layout_width="match_parent"
@@ -209,7 +209,7 @@
                                             android:layout_height="@dimen/_40sdp"
                                             android:background="@drawable/home" />
 
-                                        <com.taxitime.rideo.Utils.MyBoldTextView
+                                        <com.taxitime.ride.Utils.MyBoldTextView
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:layout_marginStart="10dp"
@@ -243,7 +243,7 @@
                                             android:layout_height="@dimen/_40sdp"
                                             android:background="@drawable/work" />
 
-                                        <com.taxitime.rideo.Utils.MyBoldTextView
+                                        <com.taxitime.ride.Utils.MyBoldTextView
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
                                             android:layout_marginStart="10dp"

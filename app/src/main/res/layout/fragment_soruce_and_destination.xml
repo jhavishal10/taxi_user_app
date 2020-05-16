@@ -10,6 +10,7 @@
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardElevation="@dimen/_5sdp">
@@ -33,7 +34,7 @@
                     android:layout_marginStart="16dp"
                     android:src="@drawable/back_icon" />
 
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -233,7 +234,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.taxitime.rideo.Utils.MyBoldTextView
+                        <com.taxitime.ride.Utils.MyBoldTextView
                             android:id="@+id/myBoldTextView3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -244,7 +245,7 @@
                             android:visibility="visible" />
 
 
-                        <com.taxitime.rideo.Utils.MyBoldTextView
+                        <com.taxitime.ride.Utils.MyBoldTextView
                             android:id="@+id/txtHomeLocation"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -291,7 +292,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.taxitime.rideo.Utils.MyBoldTextView
+                        <com.taxitime.ride.Utils.MyBoldTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/work_location"
@@ -301,7 +302,7 @@
                             android:visibility="visible" />
 
 
-                        <com.taxitime.rideo.Utils.MyBoldTextView
+                        <com.taxitime.ride.Utils.MyBoldTextView
                             android:id="@+id/txtWorkLocation"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -343,7 +344,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.taxitime.rideo.Utils.MyBoldTextView
+                        <com.taxitime.ride.Utils.MyBoldTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/save_location"
@@ -382,7 +383,7 @@
             </LinearLayout>
 
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:id="@+id/txtPickLocation"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"

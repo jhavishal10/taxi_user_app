@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.taxitime.rideo">
+    package="com.taxitime.ride">
 
     <permission
-        android:name="com.taxitime.rideo.permission.MAPS_RECEIVE"
+        android:name="com.taxitime.ride.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-feature
@@ -34,7 +34,7 @@
     <uses-feature android:name="android.hardware.camera" />
 
     <application
-        android:name="com.taxitime.rideo.UserApplication"
+        android:name="com.taxitime.ride.UserApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -55,7 +55,7 @@
             android:label="@string/app_name" />
 
         <activity
-            android:name="com.taxitime.rideo.Activities.SplashScreen"
+            android:name="com.taxitime.ride.Activities.SplashScreen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -67,145 +67,145 @@
         <activity android:name="com.paytm.pgsdk.PaytmPGActivity"
             android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|keyboard"/>
         <activity
-            android:name="com.taxitime.rideo.Activities.BeginScreen"
+            android:name="com.taxitime.ride.Activities.BeginScreen"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.newlivechat"
+            android:name="com.taxitime.ride.Activities.newlivechat"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ActivitySocialLogin"
+            android:name="com.taxitime.ride.Activities.ActivitySocialLogin"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.RegisterActivity"
+            android:name="com.taxitime.ride.Activities.RegisterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ActivityEmail"
+            android:name="com.taxitime.ride.Activities.ActivityEmail"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.Payment"
+            android:name="com.taxitime.ride.Activities.Payment"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ActivityPassword"
+            android:name="com.taxitime.ride.Activities.ActivityPassword"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.MainActivity"
+            android:name="com.taxitime.ride.Activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.otpscreen"
+            android:name="com.taxitime.ride.Activities.otpscreen"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ForgetPassword"
+            android:name="com.taxitime.ride.Activities.ForgetPassword"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.EditProfile"
+            android:name="com.taxitime.ride.Activities.EditProfile"
             android:label="@string/edit_profile"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ShowProfile"
+            android:name="com.taxitime.ride.Activities.ShowProfile"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.taxitime.rideo.Fragments.SoruceAndDestination"
+            android:name="com.taxitime.ride.Fragments.SoruceAndDestination"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.AddCard"
+            android:name="com.taxitime.ride.Activities.AddCard"
             android:label="@string/add"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.HistoryDetails"
+            android:name="com.taxitime.ride.Activities.HistoryDetails"
             android:label="@string/history"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.HistoryActivity"
+            android:name="com.taxitime.ride.Activities.HistoryActivity"
             android:label="@string/history"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taxitime.rideo.Activities.WalletAndCouponHistory"
+            android:name="com.taxitime.ride.Activities.WalletAndCouponHistory"
             android:label="@string/passbook"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ActivityWallet"
+            android:name="com.taxitime.ride.Activities.ActivityWallet"
             android:label="@string/action_wallet"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.taxitime.rideo.Activities.CouponActivity"
+            android:name="com.taxitime.ride.Activities.CouponActivity"
             android:label="@string/action_coupon"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ChangePassword"
+            android:name="com.taxitime.ride.Activities.ChangePassword"
             android:label="@string/change_password"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.CustomGooglePlacesSearch"
+            android:name="com.taxitime.ride.Activities.CustomGooglePlacesSearch"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.taxitime.rideo.Activities.ActivitySettings"
+            android:name="com.taxitime.ride.Activities.ActivitySettings"
             android:label="@string/settings"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:configChanges="locale"/>
         <activity
-            android:name="com.taxitime.rideo.Activities.AddHomeWorkActivity"
+            android:name="com.taxitime.ride.Activities.AddHomeWorkActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <!-- Firebase Notifications -->
-        <service android:name="com.taxitime.rideo.FCM.MyFirebaseMessagingService">
+        <service android:name="com.taxitime.ride.FCM.MyFirebaseMessagingService">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
 
-        <activity android:name="com.taxitime.rideo.Activities.ActivityHelp"
+        <activity android:name="com.taxitime.ride.Activities.ActivityHelp"
             android:theme="@style/AppTheme.NoActionBar"
             ></activity>
 
-        <activity android:name="com.taxitime.rideo.Activities.WelcomeScreenActivity"
+        <activity android:name="com.taxitime.ride.Activities.WelcomeScreenActivity"
             android:theme="@style/AppTheme.NoActionBar"
             ></activity>
         <meta-data

@@ -37,7 +37,7 @@
             android:layout_centerHorizontal="true"
             app:srcCompat="@drawable/calendar_clock" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/error_image"

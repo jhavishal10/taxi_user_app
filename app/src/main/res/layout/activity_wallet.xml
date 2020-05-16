@@ -7,6 +7,7 @@
     android:orientation="vertical">
 
     <LinearLayout
+                android:layout_marginTop="30dp"
         android:id="@+id/lnrTitle"
         android:layout_width="match_parent"
         android:layout_height="?actionBarSize"
@@ -23,7 +24,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -66,7 +67,7 @@
                         app:lottie_loop="true" />
 
 
-                    <com.taxitime.rideo.Utils.MyBoldTextView
+                    <com.taxitime.ride.Utils.MyBoldTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
@@ -75,7 +76,7 @@
                         android:textColor="@color/black_text_color"
                         android:textSize="@dimen/_14sdp" />
 
-                    <com.taxitime.rideo.Utils.MyBoldTextView
+                    <com.taxitime.ride.Utils.MyBoldTextView
                         android:id="@+id/balance_tv"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -99,7 +100,7 @@
                             android:padding="@dimen/_10sdp"
                             android:orientation="vertical">
 
-                            <com.taxitime.rideo.Utils.MyBoldTextView
+                            <com.taxitime.ride.Utils.MyBoldTextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="start"
@@ -121,7 +122,7 @@
                                     android:layout_gravity="center"
                                     android:textSize="16sp" />
 
-                                <com.taxitime.rideo.Utils.MyEditText
+                                <com.taxitime.ride.Utils.MyEditText
                                     android:id="@+id/money_et"
                                     android:layout_width="@dimen/_100sdp"
                                     android:layout_height="wrap_content"
@@ -130,7 +131,7 @@
                                     android:inputType="numberDecimal"
                                     android:textSize="@dimen/_14sdp" />
 
-                                <com.taxitime.rideo.Utils.MyButton
+                                <com.taxitime.ride.Utils.MyButton
                                     android:id="@+id/one"
                                     android:layout_width="50dp"
                                     android:layout_height="35dp"
@@ -141,7 +142,7 @@
                                     android:layout_width="@dimen/_10sdp"
                                     android:layout_height="wrap_content" />
 
-                                <com.taxitime.rideo.Utils.MyButton
+                                <com.taxitime.ride.Utils.MyButton
                                     android:id="@+id/two"
                                     android:layout_width="50dp"
                                     android:layout_height="35dp"
@@ -152,7 +153,7 @@
                                     android:layout_width="@dimen/_10sdp"
                                     android:layout_height="wrap_content" />
 
-                                <com.taxitime.rideo.Utils.MyButton
+                                <com.taxitime.ride.Utils.MyButton
                                     android:id="@+id/three"
                                     android:layout_width="50dp"
                                     android:layout_height="35dp"
@@ -173,7 +174,7 @@
 
 
 
-            <com.taxitime.rideo.Utils.MyButton
+            <com.taxitime.ride.Utils.MyButton
                 android:id="@+id/add_fund_button"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
@@ -217,7 +218,7 @@
                 android:onClick="@null"
                 android:orientation="vertical">
 
-                <com.taxitime.rideo.Utils.MyBoldTextView
+                <com.taxitime.ride.Utils.MyBoldTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -245,7 +246,7 @@
                         android:layout_height="@dimen/_20sdp"
                         app:srcCompat="@drawable/visa" />
 
-                    <com.taxitime.rideo.Utils.MyBoldTextView
+                    <com.taxitime.ride.Utils.MyBoldTextView
                         android:id="@+id/lblCardNumber"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -255,7 +256,7 @@
                         android:textColor="@android:color/black"
                         android:textSize="16sp" />
 
-                    <com.taxitime.rideo.Utils.MyBoldTextView
+                    <com.taxitime.ride.Utils.MyBoldTextView
                         android:id="@+id/lblPaymentChange"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -266,7 +267,7 @@
 
                 </LinearLayout>
 
-                <com.taxitime.rideo.Utils.MyButton
+                <com.taxitime.ride.Utils.MyButton
                     android:id="@+id/add_money"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_40sdp"

@@ -23,7 +23,7 @@
             android:padding="5dp"
             android:src="@drawable/back_drawable" />
 
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:id="@+id/clanProTextView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

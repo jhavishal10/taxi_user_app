@@ -13,6 +13,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <LinearLayout
+                android:layout_marginTop="30dp"
                 android:id="@+id/topbar"
                 android:layout_gravity="top"
                 android:layout_width="match_parent"
@@ -68,7 +69,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1">
 
-                        <com.taxitime.rideo.Utils.MyEditText
+                        <com.taxitime.ride.Utils.MyEditText
                             android:id="@+id/first_name"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
@@ -89,7 +90,7 @@
                         android:layout_marginStart="10dp"
                         android:layout_weight="1">
 
-                        <com.taxitime.rideo.Utils.MyEditText
+                        <com.taxitime.ride.Utils.MyEditText
                             android:id="@+id/last_name"
                             android:layout_width="match_parent"
                             android:layout_height="40dp"
@@ -110,7 +111,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp">
 
-                    <com.taxitime.rideo.Utils.MyEditText
+                    <com.taxitime.ride.Utils.MyEditText
                         android:id="@+id/email"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -293,7 +294,7 @@
                         app:viewType="rectangle" />
 
 
-                    <com.taxitime.rideo.Utils.MyTextView
+                    <com.taxitime.ride.Utils.MyTextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="16dp"
@@ -303,7 +304,7 @@
                         android:visibility="gone" />
 
 
-                    <com.taxitime.rideo.Utils.MyTextView
+                    <com.taxitime.ride.Utils.MyTextView
                         android:visibility="gone"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -322,7 +323,7 @@
                         android:layout_marginBottom="15dp"
                         android:orientation="horizontal">
 
-                        <com.taxitime.rideo.Utils.MyCheckbox
+                        <com.taxitime.ride.Utils.MyCheckbox
                             android:layout_gravity="center_vertical"
                             android:id="@+id/checkedterms"
                             android:layout_width="wrap_content"

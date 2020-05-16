@@ -23,7 +23,7 @@
             android:padding="10dp"
             android:orientation="vertical">
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:id="@+id/discount"
                 android:textSize="24sp"
                 android:text=""
@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"/>
 
-            <com.taxitime.rideo.Utils.MyBoldTextView
+            <com.taxitime.ride.Utils.MyBoldTextView
                 android:id="@+id/promo_code"
                 android:textSize="16sp"
                 android:lineSpacingMultiplier="1.3"
@@ -53,7 +53,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:orientation="vertical">
-        <com.taxitime.rideo.Utils.MyBoldTextView
+        <com.taxitime.ride.Utils.MyBoldTextView
             android:id="@+id/expiry"
             android:textSize="16sp"
             android:gravity="end|center_vertical|center_horizontal"
